@@ -1,0 +1,8 @@
+WindowsStandalone
+PlayerPath?
+C:/Users/kaona/AppData/Local/Temp/DefaultCompany/RaymarchingBookAdvancedSample/customscene.vrcw
+SceneListBegin?
+Assets/ReflectionSample/samplescene.unity
+SceneListEnd?
+392c390fc6ce2a337399dbaf1b22e37a VRCSDK2.dll:VRCSDK2.VRC_SceneDescriptor
+ed2f55581dee6a32311eddab9a27bfcd VRCCore-Editor.dll:VRC.Core.PipelineManager

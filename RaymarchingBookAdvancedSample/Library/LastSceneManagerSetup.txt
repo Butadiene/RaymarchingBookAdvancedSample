@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/TextureSample/samplescene.unity
+  isLoaded: 1
+  isActive: 1
