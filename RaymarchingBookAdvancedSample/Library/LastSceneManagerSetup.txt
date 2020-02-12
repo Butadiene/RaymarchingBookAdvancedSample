@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/InteractiveSample/MarkerSample/Denttsample/SampleScene.unity
+- path: Assets/ViaualizingSample/SampleScene.unity
   isLoaded: 1
   isActive: 1

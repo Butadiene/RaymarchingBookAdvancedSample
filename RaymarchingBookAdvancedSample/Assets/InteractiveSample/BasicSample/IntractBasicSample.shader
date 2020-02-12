@@ -105,7 +105,11 @@
 				float4 vertex : SV_POSITION;
 			};
 
-
+			struct pout
+			{
+				fixed4 color : SV_Target;
+				float depth : SV_Depth;
+			};
 
 			v2f vert(appdata v)
 			{
@@ -117,7 +121,7 @@
 				return o;
 			}
 
-			fixed4 frag(v2f i) : SV_Target
+			pout frag(v2f i)
 			{
 				float3 ro = mul(unity_WorldToObject,float4(_WorldSpaceCameraPos,1)).xyz;//レイのスタート地点を設定
 				float3 rd = normalize(i.pos.xyz - mul(unity_WorldToObject,float4(_WorldSpaceCameraPos,1)).xyz);//レイの方向を計算
@@ -143,7 +147,15 @@
 				
 				col = clamp(col, 0.0, 1.0);
 
-				return float4(col,1.0);
+
+				pout o;
+
+				o.color = float4(col, 1.0);
+
+				float4 projectionPos = UnityObjectToClipPos(float4(ro + rd * t, 1.0));
+				o.depth = projectionPos.z / projectionPos.w;//デプスの書き込み
+
+				return o;
 			}
 			ENDCG
 		}
