@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CullBackSample/SampleScene.unity
+- path: Assets/InteractiveSample/MarkerSample/Denttsample/SampleScene.unity
   isLoaded: 1
   isActive: 1

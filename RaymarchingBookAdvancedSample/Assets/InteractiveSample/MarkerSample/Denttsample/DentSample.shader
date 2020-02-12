@@ -188,7 +188,8 @@
 
 				o.color = float4(col, 1.0);
 
-				float4 projectionPos = mul(UNITY_MATRIX_VP, float4(ro + rd * t, 1.0));
+				float4 projectionPos = mul(UNITY_MATRIX_VP, float4(ro + rd * t, 1.0));//ワールド座標で計算しているため、
+				//デプスを書き込むのに必要なのはMVP変換ではなくVP変換
 				o.depth = projectionPos.z / projectionPos.w;
 
 				return o;
