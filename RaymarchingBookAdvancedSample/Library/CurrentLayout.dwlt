@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -65,7 +65,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 9c2c0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 1ae1ffff9cfbffff00000000
+    m_ExpandedIDs: 9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0067115114, y: 0.97422004, z: -0.029240532, w: -0.22359611}
     speed: 2
-    m_Value: {x: -0.0067115114, y: 0.97422004, z: -0.029240532, w: -0.22359611}
+    m_Value: {x: -0.006711513, y: 0.97422004, z: -0.029240534, w: -0.22359611}
   m_Size:
     m_Target: 15.831896
     speed: 2
@@ -741,19 +741,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/InteractiveSample
+    - Assets/VisualizingSample2
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/InteractiveSample
+  - Assets/VisualizingSample2
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\kaona\Documents\RaymarchingBookAdvancedSample\RaymarchingBookAdvancedSample
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e2c0000
-    m_LastClickedID: 11326
-    m_ExpandedIDs: 0000000070290000d0290000682b0000fe2b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 43}
+    m_SelectedIDs: 4a2a0000
+    m_LastClickedID: 10826
+    m_ExpandedIDs: 0000000072290000d22900006e2b0000042c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -781,7 +781,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070290000d0290000682b0000fe2b00003e2c0000
+    m_ExpandedIDs: 0000000072290000d22900006e2b0000042c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 6e440000c62f0000625e0000105f0000c0300000fc6a0000c01d0300c41e03000a3b0000f0360000706c00009e4e0000c64d0000fc3200009a3500004233000030710000d0410000b44c0000ea4e0000d08700003cc2010032a80000bea50000bc400000a6390000188e0000663500007a340000303600002a28000098280000282f00006a330000fe2b0000802b000092330000442900009a4600009a33000014360000f02b0000383600001c36000036360000d6620000087f0000dc2b000074380000b442000034660000ee52000008300000164100009c3100004634000086410000724700000e420000522f0000e44800000c55000006480000e63100008c650000ac4900004a530000d25e00003e48000058350000c05d000024570000528cffffba0cfcff2c540000525d0000d27600005cd50000683c0000fca8000086a100005c6d0000965700007c5400006e3e00003831000010290000362b0000842d000096320000cc3c00000e2d0000a43700004e4000000233000002310000a43300008c3000001c310000f6360000a0340000ba2a0000e0ac000076c4000086d80000a4d80000043100009c3f00009c4200003c320000ce4d0000363100009441000000000000c84a00004e2a01001a00010026480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
